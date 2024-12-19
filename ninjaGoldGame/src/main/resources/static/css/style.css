@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+h2, .paraPadded, .actioncard p {
+	padding: 20px;
+}
+
+button {
+	padding: 10px 20px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+#actions {
+	justify-content: space-evenly;
+}
+
+.actioncard {
+	border: 2px solid black;
+	text-align: center;
+	flex: 1;
+	padding: 20px;
+	margin: 20px;
+}
+
+.scrollable {
+	border: 2px solid black;
+	height: 200px;
+	margin: 20px;
+	padding: 20px;
+	overflow: auto;
+}
